@@ -1,2 +1,10 @@
 Rosee.Core/obj/
 Rosee.Droid/obj/
+packages/MvvmCross.Binding.5.1.1/MvvmCross.Binding.5.1.1.nupkg
+packages/
+Rosee/Rosee.Android/bin/
+Rosee/Rosee.Android/obj/
+Rosee/Rosee.Core/bin/
+Rosee/Rosee.Core/obj/Debug/Rosee.Core.csproj.CopyComplete
+Rosee/Rosee.Core/obj/
+Rosee/Rosee.iOS/obj/
