@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rosee.Android", "Rosee\Rosee.Android\Rosee.Android.csproj", "{00E3BCDB-64BA-4907-A838-9072566AAF20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rosee.Droid", "Rosee\Rosee.Android\Rosee.Droid.csproj", "{00E3BCDB-64BA-4907-A838-9072566AAF20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rosee.iOS", "Rosee\Rosee.iOS\Rosee.iOS.csproj", "{9E245BD7-4A15-4060-AC35-722E0EF583DD}"
 EndProject

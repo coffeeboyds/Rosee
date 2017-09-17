@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<!--
+	Font Awesome
+	-->
+	
+	<data name="fa_microphone">
+        <value>&#xf130;</value>
+    </data>
+
+	<data name="fa_search">
+        <value>&#xf002;</value>
+    </data>
+	
+	<data name="fa_heart">
+        <value>&#xf004;</value>
+    </data>
+
+	<data name="fa_heart_o">
+        <value>&#xf08a;</value>
+    </data>
+
+	<data name="fa_close">
+        <value>&#xf00d;</value>
+    </data>
+
+	<data name="fa_user_circle">
+        <value>&#xf2bd;</value>
+    </data>
+
+	<data name="fa_share_alt">
+        <value>&#xf1e0;</value>
+    </data>
+
+	<data name="fa_envelope_o">
+        <value>&#xf003;</value>
+    </data>
+
+    <data name="fa_share_alt">
+        <value>&#xf1e0;</value>
+    </data>
+
+	<data name="fa_play">
+        <value>&#xf04b;</value>
+    </data>
+
+	<data name="fa_play_circle">
+        <value>&#xf144;</value>
+    </data>
+
+	<data name="fa_pause">
+        <value>&#xf04c;</value>
+    </data>
+
+	<data name="fa_file_image_o">
+        <value>&#xf1c5;</value>
+    </data>
+
+	<data name="fa_file_video_o">
+        <value>&#xf1c8;</value>
+    </data>
+
+	<data name="fa_fast_forward">
+        <value>&#xf050;</value>
+    </data>
+
+	<data name="fa_refresh">
+        <value>&#xf021;</value>
+    </data>
+
+	<data name="fa_sync">
+        <value>&#xf021;</value>
+    </data>
+
+	<data name="fa_random">
+        <value>&#xf074;</value>
+    </data>
+
+	<data name="fa_shopping_cart">
+        <value>&#xf07a;</value>
+    </data>
+
+	<data name="fa_play-circle-o">
+        <value>&#xf01d;</value>
+    </data>
+	
+</root>
