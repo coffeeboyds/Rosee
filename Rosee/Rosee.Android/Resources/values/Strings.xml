@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <!-- Do not add any strings here. Localization is done in the Rosee.Core project in the Resources.resx -->
+  
 	<string name="app_name">Rosee</string>
 </resources>

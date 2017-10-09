@@ -60,5 +60,32 @@ namespace Rosee.Core.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rosee.
+        /// </summary>
+        internal static string app_name {
+            get {
+                return ResourceManager.GetString("app_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in with facebook.
+        /// </summary>
+        internal static string login_screen_log_in_with_facebook {
+            get {
+                return ResourceManager.GetString("login_screen_log_in_with_facebook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in with phone number.
+        /// </summary>
+        internal static string login_screen_log_in_with_phone_number {
+            get {
+                return ResourceManager.GetString("login_screen_log_in_with_phone_number", resourceCulture);
+            }
+        }
     }
 }

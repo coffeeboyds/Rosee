@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content.PM;
+using Android.OS;
 using MvvmCross.Droid.Views;
 
 namespace Rosee.Droid.Activities
@@ -11,9 +12,11 @@ namespace Rosee.Droid.Activities
         )]
     public class LoginActivity : MvxActivity
     {
-        public LoginActivity()
+        protected override void OnCreate(Bundle bundle)
         {
-            
+            base.OnCreate(bundle);
+
+            SetContentView(Resource.Layout.login_screen);
         }
     }
 }

@@ -2,7 +2,7 @@
 using MvvmCross.Core.ViewModels;
 using Rosee.Core.Properties;
 
-namespace Rosee.Core
+namespace Rosee.Core.ViewModels
 {
     public class BaseViewModelUtility
     {
