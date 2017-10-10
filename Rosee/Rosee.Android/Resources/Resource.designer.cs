@@ -7979,6 +7979,9 @@ namespace Rosee.Droid
 			// aapt resource value: 0x7f0a0179
 			public const int Widget_Design_TextInputLayout = 2131362169;
 			
+			// aapt resource value: 0x7f0a017f
+			public const int login_button_style = 2131362175;
+			
 			static Style()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
