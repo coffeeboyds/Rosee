@@ -33,6 +33,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Converters\StringResourceValueConverter.cs" />
+    <Compile Include="Converters\StringValueConverter.cs" />
     <Compile Include="CustomLanguageBindingParser.cs" />
     <Compile Include="PlatformDependent\IPlatformDependent.cs" />
     <Compile Include="PlatformDependent\PlatformDependentCode.cs" />

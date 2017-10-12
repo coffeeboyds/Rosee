@@ -17,7 +17,8 @@
   <color name="text_gray">#5A6570</color>
 
   <!-- Login page -->
-  <color name="login_button_border_pressed">#FF0000</color>
-  <color name="login_button_border_default">#0000FF</color>
+  <color name="facebook_login_button_background">#4267b2</color>
+  <color name="phone_login_button_background">#ff564a9e</color>
+  <color name="login_button_border_pressed">#9e2f38</color>
 
 </resources>

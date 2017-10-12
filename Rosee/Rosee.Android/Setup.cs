@@ -4,6 +4,12 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Binding.Bindings.Target.Construction;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Droid.Support.V7.AppCompat;
+using Android.Widget;
+using Rosee.Droid.CustomBindings;
+using System.Collections.Generic;
+using System.Reflection;
+using MvvmCross.Platform.Converters;
+using Rosee.Core.Converters;
 
 namespace Rosee.Droid
 {
@@ -16,8 +22,6 @@ namespace Rosee.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            this.RegisterDependencies();
-            
             return new Core.App();
         }
 
@@ -36,8 +40,10 @@ namespace Rosee.Droid
         /// </summary>
         protected override void FillTargetFactories(IMvxTargetBindingFactoryRegistry registry)
         {
-            MvxAppCompatSetupHelper.FillTargetFactories(registry);
             base.FillTargetFactories(registry);
+
+            MvxAppCompatSetupHelper.FillTargetFactories(registry);
+            registry.RegisterFactory(new MvxCustomBindingFactory<TextView>("Style", textView => new StyleTextViewBinding(textView)));
         }
 
         /// <summary>
@@ -54,11 +60,6 @@ namespace Rosee.Droid
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
-        }
-
-        private void RegisterDependencies()
-        {
-            //Mvx.ConstructAndRegisterSingleton<IMyService, MyService>();
         }
     }
 }

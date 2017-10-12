@@ -18,7 +18,7 @@ namespace Rosee.Core
                 .RegisterAsLazySingleton();
 
             Mvx.RegisterType<IMvxLanguageBindingParser, CustomLanguageBindingParser>();
-
+            
             //Mvx.ConstructAndRegisterSingleton<IQuery, Query>();
             Mvx.ConstructAndRegisterSingleton<IPlatformDependent, PlatformDependentCode>();
 

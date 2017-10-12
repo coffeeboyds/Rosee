@@ -16,16 +16,18 @@
   <Button
     style="@style/login_button_style"
     android:layout_height="wrap_content"
-    android:layout_width="wrap_content"
+    android:layout_width="250dp"
     android:layout_marginBottom="20dp"
-    android:background="@drawable/login_button"
+    android:background="@drawable/facebook_login_button"
+    local:MvxBind="Style ., Converter=String, ConverterParameter=roboto/Roboto-Regular.ttf"
     local:MvxLang="Text login_screen_log_in_with_facebook"/>
   
   <Button
     style="@style/login_button_style"
     android:layout_height="wrap_content"
-    android:layout_width="wrap_content"
-    android:background="@drawable/login_button"
+    android:layout_width="250dp"
+    android:background="@drawable/phone_login_button"
+    local:MvxBind="Style ., Converter=String, ConverterParameter=roboto/Roboto-Regular.ttf"
     local:MvxLang="Text login_screen_log_in_with_phone_number"/>
   
 </LinearLayout>
