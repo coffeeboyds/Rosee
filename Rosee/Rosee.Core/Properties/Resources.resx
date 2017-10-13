@@ -126,4 +126,7 @@
   <data name="app_name" xml:space="preserve">
     <value>Rosee</value>
   </data>
+  <data name="login_screen_title" xml:space="preserve">
+    <value>Find the stylist for you</value>
+  </data>
 </root>

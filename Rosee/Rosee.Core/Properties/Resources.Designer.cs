@@ -87,5 +87,14 @@ namespace Rosee.Core.Properties {
                 return ResourceManager.GetString("login_screen_log_in_with_phone_number", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find the stylist for you.
+        /// </summary>
+        internal static string login_screen_title {
+            get {
+                return ResourceManager.GetString("login_screen_title", resourceCulture);
+            }
+        }
     }
 }
