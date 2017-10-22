@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.rosee">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="Rosee.Droid"></application>
+	<application android:label="Rosee" android:icon="@drawable/Icon">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBo5xE6RIX4fzec9-EpzQ78JoHY4eD3T84" />
+	</application>
 </manifest>
