@@ -12,7 +12,7 @@ namespace Rosee.Droid.Activities
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.login_screen);
+            SetContentView(Resource.Layout.map_screen);
         }
     }
 }
